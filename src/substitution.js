@@ -16,6 +16,7 @@ const substitutionModule = (function () {
   //all characters in alphabet must be unique, otherwise return false
   function substitution(input, alphabet, encode = true) {
     input = input.toLowerCase();
+    alphabet = alphabet.toLowerCase();
     if (!alphabet) return false;
     if (alphabet.length !== 26) return false;
 
@@ -115,7 +116,7 @@ const substitutionModule = (function () {
       });
       return code;
     }
-    if (!encode) {
+    if (encode === false) {
       let code = "";
       [...input].forEach((sub) => {
         switch (sub) {
