@@ -16,9 +16,9 @@ const substitutionModule = (function () {
   //all characters in alphabet must be unique, otherwise return false
   function substitution(input, alphabet, encode = true) {
     input = input.toLowerCase();
-    alphabet = alphabet.toLowerCase();
     if (!alphabet) return false;
     if (alphabet.length !== 26) return false;
+    alphabet = alphabet.toLowerCase();
 
     for (let i = 0; i < alphabet.length; i++) {
       for (let j = i + 1; j < alphabet.length; j++) {
