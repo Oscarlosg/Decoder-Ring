@@ -1,17 +1,4 @@
-// Please refrain from tampering with the setup code provided here,
-// as the index.html and test files rely on this setup to work properly.
-// Only add code (helper methods, variables, etc.) within the scope
-// of the anonymous function on line 6
-
 const polybiusModule = (function () {
-  // you can add any code you want within this function scope
-
-  //no symbols will be included. only letter and spaces will be added
-  //should always output a sting
-  //use switch/case????!?!?
-  //when decoding, the charactes in the string excluding spaces should be even. otherwise, return false.
-  //use toLowerCase()
-
   function polybius(input, encode = true) {
     input = input.toLowerCase();
     let code = "";

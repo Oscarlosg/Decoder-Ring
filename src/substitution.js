@@ -1,19 +1,5 @@
-// Please refrain from tampering with the setup code provided here,
-// as the index.html and test files rely on this setup to work properly.
-// Only add code (helper methods, variables, etc.) within the scope
-// of the anonymous function on line 6
-
-//returns false if given alphabe isnt exacly 26 characters long
-//return false if there are duplicate characters in the given alphabet
-//mantains spaces in the message
-//ignore capiteal letters ie/ use .toLowerCase
 const substitutionModule = (function () {
-  // you can add any code you want within this function scope
 
-  //should inclde space as well as special charcters
-  // spaces should be mantained
-  //if alphabe is < than 26 char, return false
-  //all characters in alphabet must be unique, otherwise return false
   function substitution(input, alphabet, encode = true) {
     input = input.toLowerCase();
     if (!alphabet) return false;

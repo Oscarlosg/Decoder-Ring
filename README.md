@@ -1,18 +1,29 @@
-# Decoder-Ring---OGR
+# Decoder-Ring
+[![Issues](https://img.shields.io/github/issues/Oscarlosg/Decoder-Ring)](https://github.com/Oscarlosg/Decoder-Ring/issues) [![Issues](https://img.shields.io/github/contributors/Oscarlosg/Decoder-Ring)](https://github.com/Oscarlosg/Decoder-Ring/graphs/contributors) 
+## Description
+Sick of people reading your secret messages? Well I have got a doozer for you!. This app allows you to encript and decrypt messages in 3 different methods: The Caesar Shift, The Polibius Square and The Subbstitution Cypher. With this tool only your inner circle will know what the gvdl you are talking about.
+## Contents
+* [Usage](#usage)
+   * [Screenshots](#screenshots)
+* [Questions](#questions)
 
+## Usage
+clone the repo, install dependencies, run npm start. 
+  
+### Screenshots
+![main screenshot](Assets/decoder-ring.png)
+soon
 
-- This project is a set of 3 decoding/encoding cyphers built on Javascript.
+## Built With
 
-- The decoding syles are as follows:
+* HTML
+* CSS
+* JavaScript
+* Node.js
+  
+## Questions
+If you have any questions about the repo, please [open an issue](https://github.com/Oscarlosg/Decoder-Ring/issues) or contact me via email at oscarlosg14@gmail.com. You can find more of my work on my GitHub, [Oscarlosg](https://github.com/Oscarlosg/).
+  
 
-   -The Caesar Shift 
-   
-      -also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
-      
-   -The Polibus Square 
-   
-      -a device invented by the ancient Greeks Cleoxenus and Democleitus, and made famous by the historian and scholar Polybius. The device is used for fractionating plaintext characters so that they can be represented by a smaller set of symbols, which is useful for telegraphy, steganography, and cryptography. The device was originally used for fire signalling, allowing for the coded transmission of any message, not just a finite amount of predetermined options as was the convention before.
-      
-    -The Substitution Cipher
-    
-        -a method of encrypting in which units of plaintext are replaced with the ciphertext, in a defined manner, with the help of a key; the "units" may be single letters (the most common), pairs of letters, triplets of letters, mixtures of the above, and so forth. The receiver deciphers the text by performing the inverse substitution process to extract the original message.
+  
+
