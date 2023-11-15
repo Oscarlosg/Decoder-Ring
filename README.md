@@ -11,8 +11,8 @@ Sick of people reading your secret messages? Well I have got a doozer for you!. 
 clone the repo, install dependencies, run npm start. 
   
 ### Screenshots
-![main screenshot](Assets/decoder-ring.png)
-soon
+![main screenshot](assets/decoder-ring.png)
+
 
 ## Built With
 
